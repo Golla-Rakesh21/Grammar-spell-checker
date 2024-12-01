@@ -18,7 +18,7 @@ def check_spelling(text):
 
 # Function for grammar checking
 def check_grammar(text):
-    tool = language_tool_python.LanguageToolPublicAPI('en-US'))
+    tool = language_tool_python.LanguageToolPublicAPI('en-US')
     matches = tool.check(text)
     corrected_text = language_tool_python.utils.correct(text, matches)
     return corrected_text, matches
