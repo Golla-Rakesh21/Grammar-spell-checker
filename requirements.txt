@@ -1,2 +1,2 @@
 textblob
-language_tool_python
+language_tool_python==2.7.0
