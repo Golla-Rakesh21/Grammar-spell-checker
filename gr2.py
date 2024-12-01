@@ -1,3 +1,5 @@
+pip install textblob
+
 import streamlit as st
 from textblob import TextBlob
 import language_tool_python
