@@ -1,3 +1,6 @@
+import sys
+from shutil import which
+sys.modules['distutils.spawn'] = type('', (), {'find_executable': which})()
 
 
 import streamlit as st
