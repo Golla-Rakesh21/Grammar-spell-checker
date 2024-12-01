@@ -1,2 +1,4 @@
 textblob
 language_tool_python==2.7.0
+pyspellchecker
+
